@@ -1,0 +1,3 @@
+GET https://api.geoapify.com/v1/geocode/search
+?apiKey={{GEOCODE_GEOAPIFY_API_KEY}}
+&text= Rua Barão de Lucena, Pitimbu, Natal, RN

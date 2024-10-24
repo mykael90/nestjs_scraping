@@ -1,0 +1,14 @@
+GET https://api.radar.io/v1/geocode/forward
+?query= Neopolis, Natal, RN
+&country=BR
+Authorization: {{GEOCODE_RADAR_API_KEY}}
+
+
+###
+GET https://api.radar.io/v1/geocode/forward
+?query= 59066-285,Pitimbu,Natal,RN
+&layers=postalCode,locality,county,state
+&country=BR
+Authorization: {{GEOCODE_RADAR_API_KEY}}
+
+

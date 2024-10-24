@@ -1,0 +1,21 @@
+### Variables
+@urlLocal = http://localhost:3000/olx
+@contentType = application/json
+
+### Show all from mae-luiza 
+GET {{urlLocal}}/mae-luiza
+
+### Get all from mae-luiza (show and persist on mongo)
+GET {{urlLocal}}/scraping/ponta-negra
+
+### Get all from all
+GET {{urlLocal}}/scrapingall
+
+### Get informations from a property
+GET {{urlLocal}}/properties?url=https://rn.olx.com.br/rio-grande-do-norte/imoveis/belissima-casa-05-suites-580m-em-lagoa-nova-1345246204
+
+###Update one listing properties from olx
+PUT {{urlLocal}}/properties/6716db5fcdd0257aec198d98
+
+###Update all listings properties from olx
+PUT {{urlLocal}}/properties/all

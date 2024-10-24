@@ -1,0 +1,3 @@
+GET https://geocode.maps.co/search
+?api_key={{GEOCODE_MAPS_API_KEY}}
+&q= Rua Coronel Pedro Soares, Tirol, Natal, RN

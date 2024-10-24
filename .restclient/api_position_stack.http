@@ -1,0 +1,4 @@
+GET http://api.positionstack.com/v1/forward
+?access_key={{GEOCODE_POSITION_STACK_API_KEY}}
+&query= Rua Barão de Lucena, Pitimbu, Natal, RN
+&country=BR
